@@ -16,12 +16,4 @@ public class BankAccount {
         this.address = address;
         this.balance = balance;
    }
-
-
-    public void printInfo() {
-        owner.info();
-        address.info();
-        balance.info();
-
-    }
 }
