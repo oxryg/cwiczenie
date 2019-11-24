@@ -16,11 +16,7 @@ public class Person {
         this.surname = surname;
     }
 
-    public void info() {
-        String info = name + " " + surname + " PESEL - " + pesel;
-        System.out.println(info);
-    }
-
+  
     public String getName() {
         return name;
     }
