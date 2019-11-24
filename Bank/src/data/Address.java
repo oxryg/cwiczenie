@@ -18,13 +18,7 @@ public class Address {
         this.street = street;
         this.house = house;
     }
-    public void info() {
-        String info = street + " " + house + "/" + apartment;
-        String info1 = postcode + " " + town;
-        System.out.println(info);
-        System.out.println(info1);
-    }
-
+   
     public String getTown() {
         return town;
     }
