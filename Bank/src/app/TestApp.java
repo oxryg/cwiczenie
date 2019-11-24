@@ -15,7 +15,7 @@ public class TestApp {
         Balance balance = new Balance(15256.50);
         Balance balance1 = new Balance(300);
 
-
+        BankAccount account = new BankAccount(owner, address, balance);
         PrintService printService = new PrintService();
         printService.printAcccount(owner, address, balance);
         printService.printAcccount(owner1, address1, balance1);
