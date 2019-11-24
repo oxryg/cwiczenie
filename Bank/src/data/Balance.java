@@ -7,11 +7,7 @@ public class Balance {
         this.balance = balance;
     }
 
-    public void info() {
-        String info = balance + " PLN";
-        System.out.println(info);
-    }
-
+  
     public double getBalance() {
         return balance;
     }
