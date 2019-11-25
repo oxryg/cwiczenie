@@ -8,7 +8,7 @@ import data.Person;
 public class PrintService {
 
 
-   public void printAcccount(Person owner, Address address, Balance balance){
+   public void printAccount(Person owner, Address address, Balance balance){
        printName(owner);
        printAddress(address);
        printBalance(balance);   }
