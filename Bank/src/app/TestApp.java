@@ -17,6 +17,6 @@ public class TestApp {
 
         BankAccount account = new BankAccount(owner, address, balance);
         PrintService printService = new PrintService();
-        printService.printAcccount(owner, address, balance);
-        printService.printAcccount(owner1, address1, balance1);
+        printService.printAccount(owner, address, balance);
+        printService.printAccount(owner1, address1, balance1);
 }
